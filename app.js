@@ -48,7 +48,7 @@ d3.csv("data.csv").then(function(data) {
       .attr("transform", `translate(${margin.left},0)`)
       .call(d3.axisLeft(y));
   
-    // Aquí puedes agregar código similar para el gráfico de líneas si lo deseas
+    
   
   });
   
